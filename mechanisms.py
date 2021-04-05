@@ -1,6 +1,7 @@
 import math
 import torch
 import torch.nn.functional as F
+from scipy.special import erf
 
 
 class Mechanism:
